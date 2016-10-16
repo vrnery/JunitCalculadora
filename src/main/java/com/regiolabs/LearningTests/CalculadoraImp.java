@@ -12,19 +12,19 @@ package com.regiolabs.LearningTests;
 public class CalculadoraImp implements Calculadora{
 
     public int soma(int a, int b) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return a + b;
     }
 
     public int subtracao(int a, int b) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return a - b;
     }
 
     public int multipicacao(int a, int b) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return a * b;
     }
 
     public int divisao(int a, int b) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return a / b;
     }
     
 }

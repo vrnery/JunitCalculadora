@@ -43,10 +43,10 @@ public class CalculadoraImpTest {
     @Test
     public void testSoma() {
         System.out.println("soma");
-        int a = 0;
-        int b = 0;
+        int a = 1;
+        int b = 2;
         CalculadoraImp instance = new CalculadoraImp();
-        int expResult = 0;
+        int expResult = 3;
         int result = instance.soma(a, b);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
